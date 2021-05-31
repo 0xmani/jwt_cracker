@@ -8,7 +8,7 @@ Effective only to crack JWT tokens with weak secrets.
 ## Usage
 
 From command line:
-ruby jwt-cracker.rb <token> <wordlist>
+ruby jwt_cracker.rb <token> <wordlist>
 
 ## Where:
 
