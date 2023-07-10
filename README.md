@@ -8,7 +8,7 @@ Effective only to crack JWT tokens with weak secrets.
 ## Usage
 
 From command line:
-ruby jwt_cracker.rb <token> <wordlist>
+python3 jwt_cracker.py <token> <wordlist>
 
 ## Where:
 
@@ -20,5 +20,5 @@ ruby jwt_cracker.rb <token> <wordlist>
 Cracking the default [jwt.io example](https://jwt.io):
 
 ```bash
-ruby jwt_cracker "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ" ~/opt/worlist.txt
+python jwt_cracker.py"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ" ~/opt/worlist.txt
 ```
